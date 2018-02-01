@@ -22,10 +22,10 @@
     ``` javascript
         for (var i = 0; i < 5; i++) {
           setTimeout(function() {
-              console.log(i);
-          }, 1000);
+              console.log(i)
+          }, 1000)
         }
-        console.log(i);
+        console.log(i)
     ```
 9. 以下代码执行后会输出什么结果
     ``` javascript
