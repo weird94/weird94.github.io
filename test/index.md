@@ -4,22 +4,22 @@
 4.  简述盒模型
 5.  用html css实现一个div 宽高各100 水平垂直居中
 6.  以下代码执行结果是什么
-    ```
+    ``` javascript
     ['1','2','3'].map(parseInt)
     ```
 7. 怎么实现以下转换(箭头仅表示转换方向)
-    ```  
+    ``` javascript
     var a = [1, 2, 3, 4, 5, 5, 5, 5] 
     =>
     a = [1, 2, 3, 4, 5]
     ```
-    ```  
+    ``` javascript
     var a = [[1, 2, 3],[4, 5],[6],[7, 8],[9]]
     => 
     a = [1, 2, 3, 4, 5, 6, 7, 8, 9] 
     ```
 8. 以下代码会输出什么结果 (用箭头 => 表示1s的间隔)
-    ```
+    ``` javascript
         for (var i = 0; i < 5; i++) {
           setTimeout(function() {
               console.log(i);
@@ -28,7 +28,7 @@
         console.log(i);
     ```
 9. 以下代码执行后会输出什么结果
-    ```
+    ``` javascript
       setTimeout(() => { console.log(1) }, 0)
       console.log(2)
       var promise = new Promise(function (resolve, reject) {
