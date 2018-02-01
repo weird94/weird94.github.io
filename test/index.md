@@ -22,10 +22,10 @@
     ```
         for (var i = 0; i < 5; i++) {
           setTimeout(function() {
-              console.log(new Date, i);
+              console.log(i);
           }, 1000);
         }
-        console.log(new Date, i);
+        console.log(i);
     ```
 11. 以下代码执行后会输出什么结果
     ```
