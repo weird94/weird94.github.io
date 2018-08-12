@@ -64,7 +64,7 @@ const a = new Complex(1, 2);
 const b = new Complex(5, 6);
 console.log('a', a);
 console.log('b', b);
-console.log('a+b', a + b);
+console.log('a + b', a + b);
 console.log('a.toString()', a.toString());
 console.log('a.add(b)', a.add(b));
 console.log('a.mutiple(b)', a.mutiple(b));
