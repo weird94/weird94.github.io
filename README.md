@@ -1,1 +1,1 @@
-# only4ly.github.io
+# weird94.github.io
